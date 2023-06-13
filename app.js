@@ -45,7 +45,7 @@ const inventorAda = inventors.find(inventor => inventor.first === "Ada");
 //for each inventor in the array, the number of years alive will be added to total, which initializes at 0
 const yearsAlive = inventors.reduce(function (total, inventor) {
     return total + (inventor.passed - inventor.year);
-});
+}, 0);
 
 
 const people = [

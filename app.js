@@ -67,7 +67,7 @@ const people = [
 // Hint: As a start, consider using the String.prototype.split method to "split" the string using ', ' as the separator
 
 const reversedPeople = people.map(person => {
-    //split string & return as array where arr[0] is last name & arr[1] is first name
+    //split string & return as array of firstName lastName
     const [last, first] = person.split(', ');
     return `${first} ${last}`;
 })

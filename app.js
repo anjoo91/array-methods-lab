@@ -68,8 +68,8 @@ const people = [
 
 const reversedPeople = people.map(person => {
     //split string & return as array of firstName lastName
-    const [last, first] = person.split(', ');
-    return `${first} ${last}`;
+    const [lastName, firstName] = person.split(', ');
+    return `${firstName} ${lastName}`;
 })
 
 
